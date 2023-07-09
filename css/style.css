@@ -193,11 +193,6 @@ textarea.form-control {
   margin-bottom: 20px;
 }
 
-.hero_img {
-  width: 100%;
-  height: auto;
-}
-
 .hero_btn {
   padding: 8px 20px;
 }
@@ -224,6 +219,9 @@ textarea.form-control {
 @media (max-width: 576px) {
   .hero {
     padding: 80px 20px;
+  }
+  .hero_img{
+    width: 100%;
   }
 
   .hero_title {
